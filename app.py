@@ -19,7 +19,7 @@ col1, col2, col3 = st.columns(3)
 
 # --- Image Upload Field 1 ---
 with col1:
-    st.header("Content Image 1")
+    st.header("Content Image")
     uploaded_file1 = st.file_uploader("Choose the content image...", type=["jpg", "jpeg", "png"])
     if uploaded_file1 is not None:
         try:
