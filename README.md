@@ -26,3 +26,45 @@
     <li><strong>Total Loss:</strong> A weighted combination of the <em>content loss</em> and <em>style loss</em>, which the algorithm minimizes during the optimization process.</li>
     </ul>
     </ol>
+
+<h2>🚀 How to Run the Project</h2>
+
+<ol>
+  <li>🍴 <strong>Fork</strong> the repository</li>
+  <li>📦 <strong>Install required libraries</strong><br>
+      🛠️ Run Command: <code>pip install -r requirements.txt</code>
+  </li>
+  <li>🧠 <strong>Run Streamlit App</strong><br>
+      💻 Command: <code>streamlit run app.py</code>
+  </li>
+  <li>🖼️ <strong>Upload</strong> the <code>Content</code> and <code>Style</code> Images</li>
+  <li>⏳ <strong>Wait for 4 minutes</strong></li>
+  <li>🎨 <strong>Output Image</strong> will show the final result</li>
+</ol>
+
+<h2>🗂️ Project Structure</h2>
+
+<ul>
+  <li><strong>📁 Images</strong> – Folder containing project images
+    <ul>
+      <li>🖼️ <code>content.jpg</code> – Content Image</li>
+      <li>🖌️ <code>style.jpg</code> – Style Image</li>
+    </ul>
+  </li>
+  <li><strong>📓 Notebook</strong>
+    <ul>
+      <li>📘 <code>neural-style-transfer-with-tensorflow.ipynb</code> – Jupyter Notebook</li>
+    </ul>
+  </li>
+  <li>🌐 <strong>venv</strong> – Virtual Environment</li>
+  <li>📄 <strong>app.py</strong> – Main module to run the project</li>
+  <li>📉 <strong>losses.py</strong> – Functions to evaluate losses</li>
+  <li>🧩 <strong>model.py</strong> – VGG19 model configuration</li>
+  <li>🧼 <strong>preprocessing.py</strong> – Preprocesses both images</li>
+  <li>🔁 <strong>style_transfer.py</strong> – All-in-one module for processing, modeling, evaluating, and outputting the stylized image</li>
+  <li>🧾 <strong>requirements.txt</strong> – Dependency file<br>
+      🛠️ Run: <code>pip install -r requirements.txt</code>
+  </li>
+  <li>🚫 <strong>.gitignore</strong> – Files and folders to ignore in GitHub</li>
+  <li>📘 <strong>README.md</strong> – This documentation file</li>
+</ul>
